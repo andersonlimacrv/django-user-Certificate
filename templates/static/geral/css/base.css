@@ -2,6 +2,15 @@ body {
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: radial-gradient(circle, #142d4f, #1f1f1f);
+  color: Gainsboro;
+  position: relative;
+}
+
+:root {
+  --main-color: #201F1F;
+  --dark-color: #1C1A1A;
+  --contrast-color: #BE375F;
+  --differential-color: #ED8554;
 }
 
 header {
@@ -209,12 +218,11 @@ nav {
 
 /* ---------------------------------------Inicio de estilização do Footer ------------------------------------------------*/
 footer {
-  margin-top: 10%;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-
-
+  margin-top: 50px;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  bottom: 2-px;
 }
 
 :root {
@@ -285,7 +293,7 @@ footer {
   transition: var(--trans-props);
 }
 
-.social-icon.twitter:after {
+.social-icon.linkedin:after {
   background-color: #1da1f2;
 }
 
