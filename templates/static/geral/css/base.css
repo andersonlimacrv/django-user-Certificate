@@ -218,11 +218,10 @@ nav {
 
 /* ---------------------------------------Inicio de estilização do Footer ------------------------------------------------*/
 footer {
-  margin-top: 50px;
+  margin-top: 250px;
   width: 100%;
-  height: auto;
   position: absolute;
-  bottom: 2-px;
+  float: bottom;
 }
 
 :root {

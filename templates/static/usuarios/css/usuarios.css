@@ -1,5 +1,7 @@
  .main {
    color: Gainsboro;
+   display: flex;
+   ;
  }
 
  .bg-inscricao {
@@ -10,9 +12,9 @@
  .bg-img {
    background-image: url('/static/usuarios/img/bg.png');
    height: calc(100vh + 140px);
-   background-size: cover;
+   background-size: contain;
+   background-repeat: no-repeat;
    color: #14e9e9;
-
  }
 
  .logo {
